@@ -9,7 +9,7 @@ class ActivityRole {
         this.client = client;
         /**
      * The options such as role ids, if it's enabled or not
-     * {
+     * {s
      *  stream : {enable: true, roleId: ""}
      *  cam : {enable: true, roleId: ""}
      * }
