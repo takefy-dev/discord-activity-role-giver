@@ -1,0 +1,27 @@
+{
+  "name": "discord-activity-role-giver",
+  "version": "1.0.0",
+  "description": "Giving a role to a member when they are streaming or in cam",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takefy-dev/discord-activity-role-giver.git"
+  },
+  "keywords": [
+    "stream",
+    "role",
+    "discord",
+    "discord-acitivity-role-giver",
+    "discord"
+  ],
+  "author": "TakeFy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takefy-dev/discord-activity-role-giver/issues"
+  },
+  "homepage": "https://github.com/takefy-dev/discord-activity-role-giver#readme",
+  "dependencies": {}
+}
