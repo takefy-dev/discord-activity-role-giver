@@ -11,6 +11,9 @@
     "url": "git+https://github.com/takefy-dev/discord-activity-role-giver.git"
   },
   "keywords": [
+    "voice",
+    "discord-voice",
+    "voice-role",
     "stream",
     "role",
     "discord",
