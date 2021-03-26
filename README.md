@@ -8,7 +8,7 @@ Give specific role to a member when he is streaming or he has is camera enable
 
 # Usage
 
-```
+```js
 const Discord = require('discord.js');
 const { AcitivityRole } = require('discord-activity-role-giver')
 const client = new Discord.Client();
@@ -33,7 +33,8 @@ client.login('token')
 This package require 2 options, both are required for the package to work :
 
 * *Discord.Client*
-* *Options* - _Object_  :  
+* *Options* - _Object_  : 
+```js 
         stream : {
             enable :  (true or false),
             roleId: 'roleId'
@@ -42,3 +43,4 @@ This package require 2 options, both are required for the package to work :
             enable: (true or false),
             roleId: "roleId"
         }
+```
