@@ -44,3 +44,7 @@ This package require 2 options, both are required for the package to work :
             roleId: "roleId"
         }
 ```
+
+### Support
+
+If you need help you can contact me on discord (TAKEFY#9831)
