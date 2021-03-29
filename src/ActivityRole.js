@@ -34,7 +34,6 @@ class ActivityRole {
 
             if (this.options.stream.enable) {
                 //STREAMING START
-                console.log('STREAMING START')
                 if (!oldState.streaming && newState.streaming) {
                     if (newState.member.roles.cache.has(streamRole.id)) return;
                     oldState.member.roles.add(streamRole, `Streaming role`);
