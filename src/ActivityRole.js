@@ -43,6 +43,12 @@ class ActivityRole {
                     if (!newState.member.roles.cache.has(streamRole.id)) return;
                     oldState.member.roles.remove(streamRole, `Streaming role`);
                 }
+                if (oldState.channelID && !newState.channelID) {
+                    if (newState.member.roles.cache.has(streamRole.id)) {
+                        oldState.member.roles.remove(streamRole, `Streaming role`);
+                        
+                    }
+                }
             }
             if (this.options.cam.enable) {
                 // CAM START
@@ -55,6 +61,12 @@ class ActivityRole {
                 if (oldState.selfVideo && !newState.selfVideo) {
                     if (!newState.member.roles.cache.has(camRole.id)) return;
                     oldState.member.roles.remove(camRole, `Cam role`)
+                }
+                if (oldState.channelID && !newState.channelID) {
+                    if (newState.member.roles.cache.has(camRole.id)){
+                        oldState.member.roles.remove(camRole, `Cam role`)
+
+                    }
                 }
             }
 
